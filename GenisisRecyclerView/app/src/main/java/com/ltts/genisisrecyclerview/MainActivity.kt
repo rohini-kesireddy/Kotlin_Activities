@@ -15,11 +15,13 @@ class MainActivity : AppCompatActivity() {
         var myrv=findViewById<RecyclerView>(R.id.myrecyclerview)
         myrv.layoutManager=LinearLayoutManager(this,RecyclerView.VERTICAL,false)
         var myDataList=ArrayList<UsersData>()
-        myDataList.add(UsersData("roshan","roshan@gmail.com","987789450"))
-        myDataList.add(UsersData("zameer","zam@gmail.com","9876554355"))
-        myDataList.add(UsersData("shaik","sha@gmail.com","9876553545"))
-        myDataList.add(UsersData("anwar","anw@gmail.com","9876522476"))
-        myDataList.add(UsersData("basha","bash@gmail.com","98354745436"))
+        myDataList.add(UsersData("rohini","rohini@gmail.com","424654762"))
+         myDataList.add(UsersData("rohini","rohini@gmail.com","424654762"))
+         myDataList.add(UsersData("rohini","rohini@gmail.com","424654762"))
+         myDataList.add(UsersData("rohini","rohini@gmail.com","424654762"))
+         myDataList.add(UsersData("rohini","rohini@gmail.com","424654762"))
+         myDataList.add(UsersData("rohini","rohini@gmail.com","424654762"))
+    
         myrv.adapter=MyAdapter(myDataList)
 
     }
